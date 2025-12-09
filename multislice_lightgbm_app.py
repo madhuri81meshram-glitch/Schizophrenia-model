@@ -23,8 +23,12 @@ from tensorflow.keras.preprocessing import image
 # -----------------------------------------------------
 # CONFIG (USE YOUR WINDOWS PATHS)
 # -----------------------------------------------------
-MODEL_TXT = r"C:\Users\NABIRA\OneDrive\Desktop\mri\24\lightgbm_multislice_model.txt"
-SCALER_JOBLIB = r"C:\Users\NABIRA\OneDrive\Desktop\mri\24\scaler (2).joblib"
+# Use relative paths inside the repo (works on Streamlit Cloud)
+MODEL_TXT = "lightgbm_multislice_model.txt"
+SCALER_JOBLIB = "scaler.joblib"
+
+#MODEL_TXT = r"C:\Users\NABIRA\OneDrive\Desktop\mri\24\lightgbm_multislice_model.txt"
+#SCALER_JOBLIB = r"C:\Users\NABIRA\OneDrive\Desktop\mri\24\scaler (2).joblib"
 
 AXIAL = [-2, -1, 0, 1, 2]
 CORONAL = [-2, -1, 0, 1, 2]
