@@ -1,0 +1,12 @@
+streamlit
+numpy
+pandas
+opencv-python
+nibabel
+scikit-learn
+tensorflow
+matplotlib
+pywavelets
+scikit-image
+joblib
+lightgbm
