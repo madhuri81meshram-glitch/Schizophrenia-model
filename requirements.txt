@@ -3,10 +3,9 @@ numpy
 pandas
 scikit-learn
 tensorflow==2.14.0
-opencv-python
+opencv-python-headless
 nibabel
 pywavelets
 scikit-image
 lightgbm
 joblib
-
